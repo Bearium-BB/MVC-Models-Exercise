@@ -1,0 +1,27 @@
+﻿
+@model VideoGameRepository
+@{
+    var vg = Model.GetGameByName(ViewData["id"].ToString());
+}
+
+<h1>@vg.Title </h1>
+
+<h2>Consoles</h2>
+@foreach(var cons in vg.Consoles){
+    <p>@cons.Name </p>
+}
+
+<p>Price @vg.Price$</p>
+<p>Publisher @vg.Publisher.Name</p>
+<p>Studio @vg.Studio.Name</p>
+<p>Release Year @vg.Year</p>
+<p>Category @vg.Category</p>
+<p>How Many People Can Play Together @vg.PlayerCount</p>
+<p>Age Rating @vg.AgeRating</p>
+
+
+
+
+
+
+

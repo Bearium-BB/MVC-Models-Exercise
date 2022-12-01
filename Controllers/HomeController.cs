@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVC_Models_Exercise.Models;
 using System.Diagnostics;
+using System.Xml.Linq;
 
 namespace MVC_Models_Exercise.Controllers
 {
@@ -16,6 +17,18 @@ namespace MVC_Models_Exercise.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+        public IActionResult Games()
+        {
+            var VGR = new VideoGameRepository();
+            return View(VGR);
+        }
+
+        public IActionResult Game(string id)
+        {
+            ViewData["id"] = id;
+            var VGR = new VideoGameRepository();
+            return View(VGR);
         }
 
         public IActionResult Privacy()

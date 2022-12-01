@@ -1,0 +1,16 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model VideoGameRepository
+@{
+
+}
+
+<ul>
+    @foreach (var game in Model.VideoGames)
+    {
+        <li>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Game" asp-route-id="@game.Title">@game.Title</a>
+        </li>
+    }
+</ul>
