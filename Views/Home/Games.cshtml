@@ -3,14 +3,22 @@
 *@
 @model VideoGameRepository
 @{
-
+    SteamGame sg = new SteamGame();
 }
 
-<ul>
-    @foreach (var game in Model.VideoGames)
-    {
-        <li>
-            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Game" asp-route-id="@game.Title">@game.Title</a>
-        </li>
-    }
-</ul>
+<div class="container ">
+    <div class="row row-cols-auto">
+        @foreach (var game in Model.VideoGames)
+        {
+            <div class="card-body shadow-sm rounded col m-1">
+                <h5 class="card-title">@game.Title</h5>
+                <p class="card-text">Price @game.Price</p>
+                <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Game" asp-route-id="@game.Title">See more details</a>
+            </div>
+        }
+  </div>
+</div>
+@foreach (var f in sg.FriendsList)
+{
+    <p> @f.SteamId </p>
+}

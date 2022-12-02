@@ -24,3 +24,8 @@ C:\Users\brett\source\repos\MVC Models Exercise\obj\Debug\net6.0\refint\MVC Mode
 C:\Users\brett\source\repos\MVC Models Exercise\obj\Debug\net6.0\MVC Models Exercise.pdb
 C:\Users\brett\source\repos\MVC Models Exercise\obj\Debug\net6.0\MVC Models Exercise.genruntimeconfig.cache
 C:\Users\brett\source\repos\MVC Models Exercise\obj\Debug\net6.0\ref\MVC Models Exercise.dll
+C:\Users\brett\source\repos\MVC Models Exercise\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\brett\source\repos\MVC Models Exercise\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\brett\source\repos\MVC Models Exercise\bin\Debug\net6.0\Steam.Models.dll
+C:\Users\brett\source\repos\MVC Models Exercise\bin\Debug\net6.0\SteamWebAPI2.dll
+C:\Users\brett\source\repos\MVC Models Exercise\obj\Debug\net6.0\MVC Models Exercise.csproj.CopyComplete

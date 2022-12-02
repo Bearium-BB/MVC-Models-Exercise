@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "SteamWebAPI2": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
