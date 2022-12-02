@@ -19,9 +19,9 @@ namespace MVC_Models_Exercise.Models
 
 
 
-        public SteamGame()
+        public SteamGame(uint id)
         {
-            var gameTask = testAsyncGame();
+            var gameTask = FindGame(id);
             var game = gameTask.Result;
             Game = game;
         }
@@ -34,11 +34,10 @@ namespace MVC_Models_Exercise.Models
             return friendsList.ToList();
         }
 
-        private async Task<StoreAppDetailsDataModel> testAsyncGame()
+        private async Task<StoreAppDetailsDataModel> FindGame(uint id)
         {
             var steamInterface = webInterfaceFactory.CreateSteamStoreInterface(new HttpClient());
-            Task.Delay(3000).Wait();
-            var game = await steamInterface.GetStoreAppDetailsAsync(346110);
+            var game = await steamInterface.GetStoreAppDetailsAsync(id);
             return game;
         }
     }

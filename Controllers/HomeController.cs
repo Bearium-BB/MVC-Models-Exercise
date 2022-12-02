@@ -24,7 +24,7 @@ namespace MVC_Models_Exercise.Controllers
             return View(VGR);
         }
 
-        public IActionResult Game(string id)
+        public IActionResult Game(uint id)
         {
             ViewData["id"] = id;
             var VGR = new VideoGameRepository();
