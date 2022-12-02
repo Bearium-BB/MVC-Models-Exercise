@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.DataProtection.KeyManagement;
+using Steam.Models;
 using Steam.Models.DOTA2;
 using Steam.Models.SteamCommunity;
 using SteamWebAPI2.Interfaces;
@@ -11,15 +12,15 @@ namespace MVC_Models_Exercise.Models
 {
     public class SteamGame
     {
-        public List<FriendModel> FriendsList { get; set; }
+        public List<SteamAppModel> FriendsList { get; set; }
         private SteamWebInterfaceFactory webInterfaceFactory = new SteamWebInterfaceFactory("49C1D18FEEABD048FF28292E62231812");
 
 
 
         public SteamGame()
         {
-            var eggsTask = testAsync();
-            List<FriendModel> friendModels = eggsTask.Result;
+            var eggsTask = testAsyncGame();
+            List<SteamAppModel> friendModels = eggsTask.Result;
             FriendsList = friendModels;
         }
         private async Task<List<FriendModel>> testAsync()
@@ -34,5 +35,17 @@ namespace MVC_Models_Exercise.Models
             return friendsList.ToList();
         }
 
+        private async Task<List<SteamAppModel>> testAsyncGame()
+        {
+            // factory to be used to generate various web interfaces
+            // this will map to the ISteamUser endpoint
+            // note that you have full control over HttpClient lifecycle here
+            var steamInterface = webInterfaceFactory.CreateSteamWebInterface<SteamApps>(new HttpClient());
+            Task.Delay(3000).Wait();
+            var friendsListResponse = await steamInterface.GetAppListAsync();
+            var friendsList = friendsListResponse.Data;
+
+            return friendsList.ToList();
+        }
     }
 }
