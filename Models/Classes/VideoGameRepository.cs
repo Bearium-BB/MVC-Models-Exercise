@@ -365,9 +365,6 @@ namespace MVC_Models_Exercise.Models
         public VideoGame GetGameByName(string VideoGameName)
         {
           return VideoGames.FirstOrDefault(v => v.Title == VideoGameName);
-                //Penis in Alex
-                //Lap Dance from brett = true
-                //Alex sticks ups his ass == 10987654567876545664466446
         }
     }
 }

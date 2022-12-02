@@ -1,24 +1,25 @@
 ﻿
 @model VideoGameRepository
 @{
-    var vg = Model.GetGameByName(ViewData["id"].ToString());
+    SteamGame sg = new SteamGame(UInt32.Parse(ViewData["id"].ToString()));
 }
 
-<h1>@vg.Title </h1>
+<h1>@sg.Game.Name </h1>
 
-<h2>Consoles</h2>
-@foreach(var cons in vg.Consoles){
-    <p>@cons.Name </p>
+<p>Price @sg.Game.PriceOverview.Final.ToString().Insert(@sg.Game.PriceOverview.Final.ToString().Length-2,".") @sg.Game.PriceOverview.Currency </p>
+<p>Developers @foreach (string dev in sg.Game.Developers)
+{
+        <span>@dev ,</span>
 }
+</p>
 
-<p>Price @vg.Price$</p>
-<p>Publisher @vg.Publisher.Name</p>
-<p>Studio @vg.Studio.Name</p>
-<p>Release Year @vg.Year</p>
-<p>Category @vg.Category</p>
-<p>How Many People Can Play Together @vg.PlayerCount</p>
-<p>Age Rating @vg.AgeRating</p>
-
+<p>Release Year @sg.Game.ReleaseDate.Date</p>
+<p>Category @foreach (var ca in sg.Game.Categories)
+    {
+            <span>@ca.Description ,</span>
+    }
+<p>Age Rating @sg.Game.RequiredAge</p>
+<img src="@sg.Game.Screenshots[0].PathThumbnail"></img>
 
 
 
