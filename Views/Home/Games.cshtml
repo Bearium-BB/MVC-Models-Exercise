@@ -8,12 +8,12 @@
 
 <div class="container ">
     <div class="row row-cols-auto">
-        @foreach (var game in Model.VideoGames)
+        @foreach (var f in sg.FriendsList)
         {
             <div class="card-body shadow-sm rounded col m-1">
-                <h5 class="card-title">@game.Title</h5>
-                <p class="card-text">Price @game.Price</p>
-                <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Game" asp-route-id="@game.Title">See more details</a>
+                <h5 class="card-title">@f.Name</h5>
+                <p class="card-text">App Id @f.AppId</p>
+                <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Game" asp-route-id="@f.Name">See more details</a>
             </div>
         }
   </div>
