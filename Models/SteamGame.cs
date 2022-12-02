@@ -37,6 +37,7 @@ namespace MVC_Models_Exercise.Models
         private async Task<StoreAppDetailsDataModel> FindGame(uint id)
         {
             var steamInterface = webInterfaceFactory.CreateSteamStoreInterface(new HttpClient());
+            Task.Delay(3000).Wait();
             var game = await steamInterface.GetStoreAppDetailsAsync(id);
             return game;
         }

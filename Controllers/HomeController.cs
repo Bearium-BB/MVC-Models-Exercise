@@ -20,15 +20,14 @@ namespace MVC_Models_Exercise.Controllers
         }
         public IActionResult Games()
         {
-            var VGR = new VideoGameRepository();
-            return View(VGR);
+            var SGR = new SteamGameRepository();
+            return View(SGR);
         }
 
         public IActionResult Game(uint id)
         {
             ViewData["id"] = id;
-            var VGR = new VideoGameRepository();
-            return View(VGR);
+            return View();
         }
 
         public IActionResult Privacy()
