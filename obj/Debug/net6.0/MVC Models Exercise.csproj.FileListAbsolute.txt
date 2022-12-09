@@ -29,3 +29,34 @@ C:\Users\brett\source\repos\MVC Models Exercise\obj\Debug\net6.0\refint\MVC Mode
 C:\Users\brett\source\repos\MVC Models Exercise\obj\Debug\net6.0\MVC Models Exercise.pdb
 C:\Users\brett\source\repos\MVC Models Exercise\obj\Debug\net6.0\MVC Models Exercise.genruntimeconfig.cache
 C:\Users\brett\source\repos\MVC Models Exercise\obj\Debug\net6.0\ref\MVC Models Exercise.dll
+C:\Users\brett\Downloads\MVC-Models-Exercise\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\brett\Downloads\MVC-Models-Exercise\bin\Debug\net6.0\appsettings.json
+C:\Users\brett\Downloads\MVC-Models-Exercise\bin\Debug\net6.0\MVC Models Exercise.staticwebassets.runtime.json
+C:\Users\brett\Downloads\MVC-Models-Exercise\bin\Debug\net6.0\MVC Models Exercise.exe
+C:\Users\brett\Downloads\MVC-Models-Exercise\bin\Debug\net6.0\MVC Models Exercise.deps.json
+C:\Users\brett\Downloads\MVC-Models-Exercise\bin\Debug\net6.0\MVC Models Exercise.runtimeconfig.json
+C:\Users\brett\Downloads\MVC-Models-Exercise\bin\Debug\net6.0\MVC Models Exercise.dll
+C:\Users\brett\Downloads\MVC-Models-Exercise\bin\Debug\net6.0\MVC Models Exercise.pdb
+C:\Users\brett\Downloads\MVC-Models-Exercise\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\brett\Downloads\MVC-Models-Exercise\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\brett\Downloads\MVC-Models-Exercise\bin\Debug\net6.0\Steam.Models.dll
+C:\Users\brett\Downloads\MVC-Models-Exercise\bin\Debug\net6.0\SteamWebAPI2.dll
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\MVC Models Exercise.csproj.AssemblyReference.cache
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\MVC Models Exercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\MVC Models Exercise.AssemblyInfoInputs.cache
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\MVC Models Exercise.AssemblyInfo.cs
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\MVC Models Exercise.csproj.CoreCompileInputs.cache
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\MVC Models Exercise.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\MVC Models Exercise.RazorAssemblyInfo.cache
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\MVC Models Exercise.RazorAssemblyInfo.cs
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\scopedcss\bundle\MVC Models Exercise.styles.css
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\scopedcss\projectbundle\MVC Models Exercise.bundle.scp.css
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\MVC Models Exercise.csproj.CopyComplete
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\MVC Models Exercise.dll
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\refint\MVC Models Exercise.dll
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\MVC Models Exercise.pdb
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\MVC Models Exercise.genruntimeconfig.cache
+C:\Users\brett\Downloads\MVC-Models-Exercise\obj\Debug\net6.0\ref\MVC Models Exercise.dll

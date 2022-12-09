@@ -1,0 +1,14 @@
+﻿@model SteamGameRepository
+
+
+@foreach (var sg in Model.Games)
+{
+    <div class="card shadow-sm rounded m-2">
+        <img src="@sg.Game.Screenshots[0].PathThumbnail" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@sg.Game.Name</h5>
+            <p class="card-text">Price @sg.Game.PriceOverview.Final.ToString().Insert(@sg.Game.PriceOverview.Final.ToString().Length-2,".") @sg.Game.PriceOverview.Currency </p>
+            <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Game" asp-route-id="@sg.Game.SteamAppId">See more details</a>
+        </div>
+    </div>
+}

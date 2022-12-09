@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YOUCn/i7g4umEP4YabRqjWlfdyo240E1/LA60CWf6JLumJtqb3iRsnfUaxPNYRbjzsMmUSrsbQ3ylrInrZC1og==",
+  "dgSpecHash": "ogSpi2p/J1sQLcsnbzV/qfaH06F0NGTHMzmXZ2OdnsVB+zV2z0jtOFGOPEpIQ5+7sTyPvsoAUq/GfZoMh9y6FQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brett\\source\\repos\\MVC Models Exercise\\MVC Models Exercise.csproj",
+  "projectFilePath": "C:\\Users\\brett\\Downloads\\MVC-Models-Exercise\\MVC Models Exercise.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brett\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
